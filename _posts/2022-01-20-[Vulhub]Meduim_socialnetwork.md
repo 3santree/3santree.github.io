@@ -4,8 +4,6 @@ title: Meduim_SocialNetwork
 date: 2022-01-20
 tag: notes
 ---
-# Learn outcome
-
 *   use python to get shell
 *   identify docker container
 *   Vemon pivot internal network
