@@ -14,11 +14,11 @@ tag: notes
 2.  `dirsearch` only find robots.txt
 3.  We found directory `mercuryfacts/` in 404 page
 
-[mecury1](../images/mecury1.png)
+[mecury1](../assets/images/mecury1.png)
 
 ## mercuryfacts/1 or 1=1/
 
-[mecury1](../images/mecury2.png)
+[mecury1](../assets/images/mecury2.png)
 
 1.  `1 or 1=1` find sql injection
 2.  `1 order by 2` and `1 order by 1` find sql query only have 1 column 
