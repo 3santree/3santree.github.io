@@ -183,9 +183,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:yourname@gmail.com"
-    b-github = "https://github.com/yourname"
-    c-bilibili = "https://space.bilibili.com/yourname"
+    a-email = "mailto:manchesteruna@outlook.com"
+    b-github = "https://github.com/3santree"
+    c-linkedIn = "https://www.linkedin.com/in/yuwang345/"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
