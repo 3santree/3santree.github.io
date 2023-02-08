@@ -1,7 +1,7 @@
 [![hugo](https://img.shields.io/badge/powered%20by-hugo-orange)](https://gohugo.io/)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2F3santree.github.io)](https://3santree.github.io)
 
-这里是 3santree 的博客的源码，访问地址：<https://3santree.github.io>
+blog source code，link：<https://3santree.github.io>
 
 ## LICENSE
 
