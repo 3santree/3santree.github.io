@@ -72,6 +72,10 @@ Reference: https://wiki.archlinux.org/title/Localization/Simplified_Chinese
 1. To display Chinese characters, I installed font pkg `wqy-zenhei` from the list
 2. Install Chinese input method, install `ibus, ibus-rime`
 
+## Openvpn not connecting
+
+Find it working after Updating the system and reboot, great....
+
 ## A annoying problem that cost me 2 days...
 
 Testing my 3.5mm jack headset on the laptop, it recognized the speaker, but not the microphone.
