@@ -31,7 +31,7 @@ sudo systemctl start vboxweb.service
 
 # Configure Network
 
-To make out ubuntu guest machine **1. have internet** and **can communicate to our host machine**, we need to set two network adapter for ubuntu.
+To make out ubuntu guest machine **1. have internet** and **2. can communicate to our host machine**, we need to set two network adapter for ubuntu.
 
 1. NAT (Internet access, but cannot communicate to host)
 2. Host-only (No internet access, but can communicate to host)
