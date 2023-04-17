@@ -39,10 +39,11 @@ Using linux is cool, however, it's not supported the same way as windows, which 
 
 ## F7/F8 brightness control not working
 
-Reboot after creating the file, then it works
+Reboot, then it works
 
 ```bash
 sudo echo "blacklist hid_sensor_hub" > /etc/modprobe.d/framework-als-blacklist.conf
+update-initramfs -u
 ```
 
 ## School's wifi
