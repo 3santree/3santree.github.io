@@ -154,11 +154,11 @@ After testing the client/server, it works as we intended.
 - Client that connects to server and accept data
 - Client exit program when server send `exit`
 
+![client](client.png)
+
 The communication now can be simplified as one way communication `Server -> Client`:
 
 - Server send data to client.
-
-![client](client.png)
 
 For our next feature, to execute command, we need to implement two-way communication `Server <-> Client` to execute command and get results back:
 
@@ -171,8 +171,8 @@ For our next feature, to execute command, we need to implement two-way communica
 First add one condition to decide if the server wants to execute command, if server sends `cmd`, the client will wait for the next command the server send, execute them and print it out
 
 ```go
-if bytes.Equal(bytes.Trim(buf, "\x00"), []byte(exit")) {
-  break
+if bytes.Equal(bytes.Trim(buf, "\x00"), []byte("exit")) {
+  ...
 } else if bytes.Equal(bytes.Trim(buf, "\x00"), []byte("cmd")) {
   // use a new variable to store the commands from server
   cmdbuf := make([]byte, 4096)
