@@ -453,7 +453,7 @@ func reverseShell(path string, send chan<- []byte, recv <-chan []byte) {
 }
 ```
 
-Now let's what our final program looks like
+Now let's see what our final program looks like
 
 ![](final.png)
 
