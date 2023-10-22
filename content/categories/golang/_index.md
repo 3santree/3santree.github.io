@@ -1,7 +1,7 @@
 
 ---
-title: syntax
-description: description of syntax category
+title: golang
+description: things related to golang
 image: 1.jpeg
 
 # Badge style
