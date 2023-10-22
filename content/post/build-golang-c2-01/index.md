@@ -66,7 +66,7 @@ for input(p string) []byte {
 
 With the text we type in the terminal, we're going to send it to the client, using variable `conn` in the main fucntion. `conn` is type of `net.Conn`, it represent the connection between the client and the server. 
 
-Let's add a function `handle()` that operate on the `conn` in main function.
+Let's add a function `handler()` that operates on the `conn` in main function.
 
 ```diff
 func main() {
