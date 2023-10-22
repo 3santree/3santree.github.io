@@ -472,7 +472,7 @@ Transfer it to windows machine and run it... And it works. This is a showcase pr
 
 ![](windows.png)
 
-## Reference:
+## Reference
 
 > - https://github.com/BishopFox/sliver.git
 > - https://github.com/moloch--/gshell.git
