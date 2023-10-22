@@ -46,7 +46,7 @@ Let's test our server with netcat
 
 Create a new function called `input`, takes in a string, return what we have inputed, but in type []byte instead of string. Because to write data to the connection, it need type []byte.
 
-Using `bufio.NewScanner()`, the text it returns will strip the `\n` in the end.
+Using `bufio.NewScanner()`, it will strip the `\n` at the end.
 
 
 ```go
