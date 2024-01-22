@@ -9,9 +9,13 @@ comment: false
 
 > This blog is for educational purpose only
 
+Code repo for this blog: https://github.com/3santree/blogcode
+
 ## Phase 1
 
 We will use [console](https://github.com/reeflective/console) library which aslo used by [Sliver](https://github.com/BishopFox/sliver). I recommand  go through the example it provides in the repo to get familiar with its usage, because I won't explain setting up console in detail.
+
+
 
 ```textile
 Phase1
