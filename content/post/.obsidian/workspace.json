@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "26338c5c4c43b693",
+    "type": "split",
+    "children": [
+      {
+        "id": "73520182300e5fd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a70e6a53e47f26e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "automate-dropper/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e8bb8046e513c3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b27a592bf4d11ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3997422f670af0a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cdfabedcf17e43c0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de51fe64302f2338",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 247.5
+  },
+  "right": {
+    "id": "093650a89cfc9374",
+    "type": "split",
+    "children": [
+      {
+        "id": "056b9cb844de36d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "312af8958c274f9d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "automate-dropper/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2226f1489d6ca247",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "automate-dropper/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3d028a50d37bac8a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "318ff20cbf5ba21e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "automate-dropper/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a70e6a53e47f26e1",
+  "lastOpenFiles": [
+    "automate-dropper/demo.mp4",
+    "automate-dropper/722_1.mp4",
+    "automate-dropper/index.md~",
+    "automate-dropper/abc.mp4",
+    "automate-dropper/flag.png",
+    "automate-dropper/index.md",
+    "automate-dropper/test-on-windows.png",
+    "automate-dropper/aes.png",
+    "automate-dropper/cacl.png",
+    "Pasted.md",
+    "build-golang-c2-01/index.md",
+    "azure-sime/index.md"
+  ]
+}
