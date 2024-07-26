@@ -439,11 +439,16 @@ if err != nil {
 }
 ```
 
-## Outcome
+## [Outcome](https://github.com/3santree/Simple-Dropper.git)
 
 Here's a stupid video showcasing what we have done in this blog, enjoy!
 
 {{< video src="demo.mp4" >}}
 
-
-
+> Reference:
+> 
+> 	https://sliver.sh/
+> 
+> https://github.com/Ne0nd0g/go-shellcode
+> 
+> https://dominicbreuker.com/
